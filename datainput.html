@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div align="Center">
+<br>
+<div align="Center" style="border: 1px solid black; width: 1200px; margin-left:30px" >
+	<div align="Center" style="height: 80px;width: 550px">
+	<img style="padding-top:10px; width:80px; height: 80px; float:left" src="crest.png" alt=""/><br>
+	<h2>University of Peradeniya Medical Centre</h2>
+	</div>
+	<h4>Fill the Details</h4>
+<form action="datainputresult.php" method="post">
+	<table>
+            <tbody>
+	            <tr>
+	                <td><b>Registration No</b></td>
+	                 <td><input type="text" name="regNo" style="width:300px" >
+					</td>
+					<td><b>Name</b></td>
+	                 <td><input type="text" name="name" style="width:300px" >
+					</td>
+	            </tr>
+                
+	            <tr>
+	                <td align=Left><b>Gender</b></td>
+	                <td>
+	                <input type="radio" name="gender" value="M">Male
+	                <input type="radio" name="gender" value="F">Female
+					</td>
+					<td><b>Birthday (yyyy-mm-dd)</b></td>
+	                 <td><input type="text" name="bday"  >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Faculty</b></td>
+	                <td><select name="fac">
+				            <option>Medicine</option>
+				            <option>Engineering</option>
+							<option>Science</option>
+				            <option>Agriculture science</option>
+				            <option>Vetenary Science</option>
+				            <option>Art</option>
+				            <option>Management</option>
+				            <option>Dental Science</option>
+				            <option>AHS</option>
+				            <option>none</option>
+        				</select>
+					</td>
+					<td><b>Hostel</b></td>
+	                <td><select name="hostel">
+				            <option>Akbar Hall</option>
+				            <option>Marcus Fernando Hall</option>
+							<option>Mars Hall</option>
+				            <option>Ivor Jennings Hall</option>
+				            <option>Jayathilaka Hall</option>
+				            <option>Arunachalam Hall</option>
+				            <option>New Akbar Hall</option>
+				            <option>Ramanadhan Hall</option>
+				            <option>Sarathchandra Hall</option>
+							<option>Malalasekara Hall</option>
+				            <option>Sangamiththa Hall</option>
+				            <option>Hilda Obesekara Hall</option>
+				            <option>Wijewardhana Hall</option>
+				            <option>Saraswi Uyana Hall</option>
+				            <option>Hindagala Hall</option>
+				            <option>Kehelpannala Hall</option>
+				            <option>none</option>
+        				</select>
+					</td>
+	            </tr>
+	            <tr>
+	                <tr>
+	                <td><b>Mobile no</b><br><br><b>Address</b></</td>
+	                 <td><input type="text" name="mobile" style="width:300px" ><br>
+	                 <input style="margin-top: 10px;width:300px" type="text" name="address" >
+					</td>
+					<td><b>Guardian name</b><br><br><b>Guardian phone no</b></</td>
+	                 <td><input type="text" name="guardian" style="width:300px" ><br>
+	                 <input style="margin-top: 10px;width:300px" type="text" name="homephone" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Height (cm)</b></td>
+	                 <td><input type="text" name="height" style="width:300px" >
+					</td>
+					<td><b>Weight (kg)</b></td>
+	                 <td><input type="text" name="weight" style="width:300px" >
+					</td>
+	            </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <table style="float: left; width:388px; margin-left: 30px">
+            <tbody>
+	            <tr>
+	                <td></td>
+	                <td><u>Blood</u></td>
+	            </tr>
+	            <tr>
+	                <td><b>Date of Check</b></td>
+	                 <td><input type="text" name="blooddate" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Blood Group</b></td>
+	                 <td><input type="text" name="bloodgroup" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>FBC count</b></td>
+	                 <td><input type="text" name="fbc" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Platelets count</b></td>
+	                 <td><input type="text" name="platelets" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Blood pressure</b></td>
+	                 <td><input type="text" name="pressure" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Any note</b></td>
+	                 <td><input type="text" name="bloodnote" style="width:200px" >
+					</td>
+	            </tr>
+                
+	            
+            </tbody>
+        </table>	
+        <table style="float: left; width:390px">
+            <tbody>
+	            <tr>
+	                <td></td>
+	                <td><u>Physical Problems</u></td>
+	            </tr>
+
+                <tr>
+	                <td><b>Date of Check</b></td>
+	                 <td><input type="text" name="physicaldate" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Skin</b></td>
+	                 <td><input type="text" name="skin" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Eye</b></td>
+	                 <td><input type="text" name="eye" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>disabilities</b></td>
+	                 <td><input type="text" name="disabilities" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Teeths</b></td>
+	                 <td><input type="text" name="teeths" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Any note</b></td>
+	                 <td><input type="text" name="physicalnote" style="width:200px" >
+					</td>
+	            </tr>
+	            
+            </tbody>
+        </table>	
+        <table style="float: left; width:390px; margin-bottom: 20px">
+            <tbody>
+	            <tr>
+	                <td></td>
+	                <td><u>Diseases</u></td>
+	            </tr>
+	            <tr>
+	                <td><b>Date of Check</b></td>
+	                 <td><input type="text" name="datediseases" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>non-epidemic</b></td>
+	                 <td><input type="text" name="nonepi" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>epidemic</b></td>
+	                 <td><input type="text" name="epi" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Long term medicines</b></td>
+	                 <td><input type="text" name="longmedi" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Genetic diseases</b></td>
+	                 <td><input type="text" name="gendis" style="width:200px" >
+					</td>
+	            </tr>
+	            <tr>
+	                <td><b>Any note</b></td>
+	                 <td><input type="text" name="note3" style="width:200px" >
+					</td>
+	            </tr>
+	            
+            </tbody>
+        </table>	
+        <a style="font: 18px Calibri; margin-left:30px">I state that above details of the patient are correct to my knowledge</a>
+		<input type="checkbox" style="margin-left:20px" name="statement" value="yes">
+		<br>
+		<table style="width:1000px">
+            <tbody>
+	            <tr>
+	                <td><u>Certifing Medical Officer Details</u></td>
+	                <td><b>Name of medical officer</b><br><input type="text" name="namedr" style="width:200px" ></td>
+	                <td><b>Registration number</b><br><input type="text" name="regnodr" style="width:200px" ></td>
+	                <td><b>Hospital</b><br><input type="text" name="hospital" style="width:200px" ></td>
+	            </tr>
+            </tbody>
+        </table>	
+	<input id="submitbtn1" type="submit" value="Submit" >
+	<br>
+</form>
+	</div>
+	</div>
+
+</body>
+</html>
